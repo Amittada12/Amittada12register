@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row coi-md-6 coi-md-offset-3">
+            <div class="panel panal-primary">
+                <div class="panel-heading text-center">
+                    <h1>Registration Form</h1>
+                </div>
+                <div class="panel-body">
+                    <form action="connect.php" method="post">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input
+                               type="text"
+                               class="form-control"
+                               id="firstName"
+                               name="firstName"
+                               />
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">last Name</label>
+                            <input
+                               type="text"
+                               class="form-control"
+                               id="lastName"
+                               name="lasstName"
+                               />
+                        </div> 
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <div>
+                                <label for="male" class="radio-inline">
+                                 <input
+                                 type="radio"
+                                 name="gender"
+                                 value="m"
+                                 id="male"
+                                 />Male
+                                </label>
+                                <label for="female" class="radio-inline">
+                                 <input
+                                 type="radio"
+                                 name="gender"
+                                 value="f"
+                                 id="female"
+                                 />feMale
+                                </label>
+                                <label for="others" class="radio-inline">
+                                    <input
+                                    type="radio"
+                                    name="gender"
+                                    value="f"
+                                    id="others"
+                                    />others
+                                   </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input
+                               type="text"
+                               class="form-control"
+                               id="email"
+                               name="email"
+                               />
+                        </div> 
+                        <div class="form-group">
+                            <label for="password">password</label>
+                            <input
+                               type="password"
+                               class="form-control"
+                               id="password"
+                               name="password"
+                               />
+                        </div> 
+                        <div class="form-group">
+                            <label for="number">Phone Number</label>
+                            <input
+                               type="number"
+                               class="form-control"
+                               id="Number"
+                               name="Number"
+                               />
+                        </div> 
+                        <input type="submit" class="btn btn-primary"/>
+                    </form>
+                </div>
+                <div class="panel-footer text-right">
+                    <small>&copy; Amittada Supklin</small>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
